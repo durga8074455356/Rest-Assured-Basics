@@ -3,6 +3,11 @@
 <groupId>BasicRestAssuredPOCProject</groupId>
 <artifactId>BasicRestAssuredPOCProject</artifactId>
 <version>0.0.1-SNAPSHOT</version>
+   <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 <name>Rest Assured Maven Project</name>
 <description>To set up a basic Rest Assured Project</description>
 <dependencies>
