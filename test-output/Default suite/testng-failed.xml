@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="intermediate.CreatingJSONObjectRequestBodyUsingJavaMap">
+      <class name="advanced.CreateDateFieldsUsingPOJO">
         <methods>
-          <include name="createJsonObjectRequestBody"/>
+          <include name="createJsonWithCustomDateFormat"/>
+          <include name="createJsonWithTimestamp"/>
+          <include name="createJsonWithDefaultDateFormat"/>
         </methods>
-      </class> <!-- intermediate.CreatingJSONObjectRequestBodyUsingJavaMap -->
+      </class> <!-- advanced.CreateDateFieldsUsingPOJO -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
