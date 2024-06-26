@@ -3,6 +3,11 @@
 <groupId>BasicRestAssuredPOCProject</groupId>
 <artifactId>BasicRestAssuredPOCProject</artifactId>
 <version>0.0.1-SNAPSHOT</version>
+   <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 <name>Rest Assured Maven Project</name>
 <description>To set up a basic Rest Assured Project</description>
 <dependencies>
@@ -63,6 +68,7 @@
 <artifactId>json</artifactId>
 <version>20210307</version>
 </dependency>
+<<<<<<< HEAD
 <dependency>
     <groupId>org.skyscreamer</groupId>
     <artifactId>jsonassert</artifactId>
@@ -71,5 +77,7 @@
 </dependency>
 
 
+=======
+>>>>>>> a075c394f3b622b4c5f38b72d42b31c52f07c322
 </dependencies>
 </project>
