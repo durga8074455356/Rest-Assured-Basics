@@ -68,5 +68,16 @@
 <artifactId>json</artifactId>
 <version>20210307</version>
 </dependency>
+<<<<<<< HEAD
+<dependency>
+    <groupId>org.skyscreamer</groupId>
+    <artifactId>jsonassert</artifactId>
+    <version>1.5.0</version>
+    <scope>test</scope>
+</dependency>
+
+
+=======
+>>>>>>> a075c394f3b622b4c5f38b72d42b31c52f07c322
 </dependencies>
 </project>
